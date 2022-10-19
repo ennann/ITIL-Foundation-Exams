@@ -70,7 +70,7 @@ def print_questions(question_list, answers_list):
 
 # write to txt file
 def write_to_txt(question_list, answers_list):
-    date = datetime.datetime.now().strftime('%Y-%m-%d %H%M%S');
+    date = datetime.datetime.now().strftime('%Y-%m-%d %H%M%S')
 
     with open(f"/Users/Elton/Code-stuff/pythonlearning/itil_foundation/exam_{date}.txt", "w") as f:
         for i in range(1, 41):
